@@ -104,7 +104,7 @@ export default function Hero({
       </section>
 
       {/* MOBILE HERO */}
-      <section className="relative h-[655px] overflow-hidden bg-[#f6f2ee] md:hidden">
+      <section className="relative min-h-[92svh] overflow-hidden bg-[#f6f2ee] md:hidden">
         <img
           src={mobileImage || desktopImage}
           className="absolute inset-0 z-0 h-full w-full object-cover clip-section-bl"
@@ -112,25 +112,31 @@ export default function Hero({
           alt={imageAlt}
         />
 
-        <div className="absolute inset-0 z-10 bg-gradient-to-r from-[#f6f2ee]/92 via-[#f6f2ee]/68 to-[#f6f2ee]/8" />
-        <div className="absolute inset-0 z-10 bg-gradient-to-b from-[#f6f2ee]/38 via-transparent to-transparent" />
+        <div className="absolute inset-0 z-10 bg-gradient-to-r from-[#f6f2ee]/95 via-[#f6f2ee]/76 to-[#f6f2ee]/10" />
+        <div className="absolute inset-0 z-10 bg-gradient-to-b from-[#f6f2ee]/50 via-transparent to-[#f6f2ee]/32" />
 
-        <div className="relative z-20 flex h-[655px] flex-col px-4 pt-12">
+        <div className="relative z-20 flex min-h-[92svh] flex-col px-5 pb-10 pt-10">
           <div className="mt-1 flex justify-center">
-            <img src={ASSETS.logo} alt="OwlSafe" className="h-[102px] w-auto" />
+            <a href="/" aria-label="OwlSafe home">
+              <img
+                src={ASSETS.logo}
+                alt="OwlSafe"
+                className="h-[112px] w-auto"
+              />
+            </a>
           </div>
 
-          <div className="mt-5 text-[#1b3a1f]">
-            <div className="max-w-[205px]">
-              <h1 className="text-[21px] font-semibold leading-[0.98] tracking-[-0.03em]">
+          <div className="mt-8 flex flex-1 items-center text-[#1b3a1f]">
+            <div className="max-w-[285px]">
+              <h1 className="text-[34px] font-semibold leading-[0.95] tracking-[-0.055em]">
                 {title}
               </h1>
 
-              <p className="mt-4 text-[11px] leading-[1.7] text-[#1b3a1f]/90">
-                {intro}
+              <p className="mt-5 text-[14px] leading-[1.75] text-[#1b3a1f]/90">
+                {mobileIntro || intro}
               </p>
 
-              <div className="mt-5 grid max-w-[150px] gap-2">
+              <div className="mt-6 grid max-w-[190px] gap-3">
                 <motion.div
                   initial={{ rotate: 0 }}
                   animate={{ rotate: [0, -2, 2, -2, 0] }}
@@ -142,7 +148,11 @@ export default function Hero({
                   }}
                   className="w-full"
                 >
-                  <Button yellow href={primaryHref} className="w-full px-3 py-2 text-[9px]">
+                  <Button
+                    yellow
+                    href={primaryHref}
+                    className="w-full px-4 py-3 text-[10px]"
+                  >
                     {primaryLabel}
                   </Button>
                 </motion.div>
@@ -152,7 +162,7 @@ export default function Hero({
                     ghost
                     clipped={false}
                     href={secondaryHref}
-                    className="px-3 py-2 text-[9px]"
+                    className="w-full px-4 py-3 text-[10px]"
                   >
                     {secondaryLabel}
                   </Button>
@@ -160,11 +170,11 @@ export default function Hero({
               </div>
 
               {trustPoints.length > 0 && (
-                <div className="mt-6 grid gap-2 text-[10px] leading-tight text-[#1b3a1f]">
+                <div className="mt-7 grid gap-2.5 text-[12px] leading-snug text-[#1b3a1f]">
                   {trustPoints.map((point) => (
-                    <div className="flex items-start gap-2" key={point}>
-                      <div className="mt-[1px] flex h-[12px] w-[12px] shrink-0 items-center justify-center border border-[#1b3a1f] bg-white">
-                        <Check className="h-2 w-2 text-[#1b3a1f]" />
+                    <div className="flex items-start gap-2.5" key={point}>
+                      <div className="mt-[1px] flex h-[15px] w-[15px] shrink-0 items-center justify-center border border-[#1b3a1f] bg-white">
+                        <Check className="h-2.5 w-2.5 text-[#1b3a1f]" />
                       </div>
                       <span>{point}</span>
                     </div>
