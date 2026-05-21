@@ -60,7 +60,7 @@ export default function Hero({
               {title}
             </h1>
 
-            <p className="mt-5 max-w-[620px] text-[15px] font-semibold leading-7 text-[#1b3a1f]/90">
+            <p className="mt-5 max-w-[620px] text-[15px] leading-7 text-[#1b3a1f]/90">
               {intro}
             </p>
 
@@ -170,10 +170,10 @@ export default function Hero({
               </div>
 
               {trustPoints.length > 0 && (
-                <div className="mt-7 grid gap-2.5 text-[12px] leading-snug text-[#1b3a1f]">
+                <div className="mt-7 grid gap-2.5 text-[14px] font-semibold leading-[1.75] text-[#1b3a1f]/90">
                   {trustPoints.map((point) => (
                     <div className="flex items-start gap-2.5" key={point}>
-                      <div className="mt-[1px] flex h-[15px] w-[15px] shrink-0 items-center justify-center border border-[#1b3a1f] bg-white">
+                      <div className="mt-[4px] flex h-[15px] w-[15px] shrink-0 items-center justify-center border border-[#1b3a1f] bg-white">
                         <Check className="h-2.5 w-2.5 text-[#1b3a1f]" />
                       </div>
                       <span>{point}</span>
