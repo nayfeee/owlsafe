@@ -60,7 +60,7 @@ export default function Hero({
               {title}
             </h1>
 
-            <p className="mt-5 max-w-[620px] text-[15px] leading-7 text-[#1b3a1f]/90">
+            <p className="mt-5 max-w-[620px] text-[15px] font-semibold leading-7 text-[#1b3a1f]/90">
               {intro}
             </p>
 
@@ -104,7 +104,7 @@ export default function Hero({
       </section>
 
       {/* MOBILE HERO */}
-      <section className="relative min-h-[92svh] overflow-hidden bg-[#f6f2ee] md:hidden">
+      <section className="relative min-h-[100svh] overflow-hidden bg-[#f6f2ee] md:hidden">
         <img
           src={mobileImage || desktopImage}
           className="absolute inset-0 z-0 h-full w-full object-cover clip-section-bl"
@@ -115,7 +115,7 @@ export default function Hero({
         <div className="absolute inset-0 z-10 bg-gradient-to-r from-[#f6f2ee]/95 via-[#f6f2ee]/76 to-[#f6f2ee]/10" />
         <div className="absolute inset-0 z-10 bg-gradient-to-b from-[#f6f2ee]/50 via-transparent to-[#f6f2ee]/32" />
 
-        <div className="relative z-20 flex min-h-[92svh] flex-col px-5 pb-10 pt-10">
+        <div className="relative z-20 flex min-h-[100svh] flex-col px-5 pb-10 pt-10">
           <div className="mt-1 flex justify-center">
             <a href="/" aria-label="OwlSafe home">
               <img
@@ -132,7 +132,7 @@ export default function Hero({
                 {title}
               </h1>
 
-              <p className="mt-5 text-[14px] leading-[1.75] text-[#1b3a1f]/90">
+              <p className="mt-5 text-[14px] font-semibold leading-[1.75] text-[#1b3a1f]/90">
                 {mobileIntro || intro}
               </p>
 
