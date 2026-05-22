@@ -544,7 +544,7 @@ function StepTool() {
                 </p>
 
                 <div className="mt-7 grid gap-3 sm:grid-cols-2">
-                  <Button yellow href="/quote" className="w-full">
+                  <Button yellow clipped href="/quote" className="w-full">
                     {recommendation.cta || "Get a quote"}
                   </Button>
                   <Button
@@ -578,6 +578,9 @@ export default function DoINeedSurveyPage() {
     <main className="min-h-screen bg-[#f6f7f3] text-slate-800">
       <style>{`
         html, body, main { overflow-x: hidden; }
+        .clip-corner {
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 13px 100%, 0 calc(100% - 13px));
+        }
         .clip-section-bl {
           clip-path: polygon(0 0, 100% 0, 100% 100%, 24px 100%, 0 calc(100% - 24px));
         }
@@ -733,7 +736,7 @@ export default function DoINeedSurveyPage() {
             </p>
           </div>
 
-          <Button yellow href="/quote" className="w-full md:w-[230px]">
+          <Button yellow clipped href="/quote" className="w-full md:w-[230px]">
             Get a quote
           </Button>
         </div>
