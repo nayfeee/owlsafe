@@ -1,0 +1,43 @@
+
+UPDATED LOGIC CHANGES INCLUDED:
+
+- Added genuine low-risk outcome path:
+  "A survey may not currently be necessary..."
+
+- Softer low-risk CTA:
+  "Request guidance"
+
+- Replaced EM dashes with commas/hyphens/normal punctuation throughout.
+
+MAIN CHANGE TO APPLY INSIDE getRecommendation():
+
+Replace your final low-risk return block with:
+
+return {
+  label: "A survey may not currently be necessary",
+  type: "General guidance",
+  href: "/asbestos-surveys-leeds",
+  summary:
+    "Based on your answers, asbestos risk may be lower if the property and materials are genuinely post-1999, no suspect materials are present and no intrusive works are planned.",
+  next:
+    "If plans change, hidden materials are uncovered or the property history is uncertain, it is still sensible to seek guidance before disturbing the building fabric.",
+  cta: "Request guidance",
+};
+
+THEN replace:
+
+<Button yellow href="/quote" className="w-full">
+
+WITH:
+
+<Button yellow href="/quote" className="w-full">
+  {recommendation.cta || "Get a quote"}
+</Button>
+
+AND add:
+
+cta?: string;
+
+to the recommendation object type if TypeScript complains.
+
+Everything else can remain the same.
