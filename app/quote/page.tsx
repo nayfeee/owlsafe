@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "Request an asbestos survey quote in Leeds | Management, refurbishment, demolition & reinspection surveys →",
   alternates: {
-    canonical: "https://www.owlsafe.co.uk/get-a-quote",
+    canonical: "https://www.owlsafe.co.uk/quote",
   },
   openGraph: {
     title: "Get an Asbestos Survey Quote Leeds | OwlSafe",
     description:
       "Request a fast asbestos survey quote in Leeds for residential, commercial and managed properties.",
-    url: "https://www.owlsafe.co.uk/get-a-quote",
+    url: "https://www.owlsafe.co.uk/quote",
     siteName: "OwlSafe",
     type: "website",
   },
