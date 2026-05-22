@@ -13,10 +13,6 @@ export const metadata: Metadata = {
   title: "OwlSafe | Asbestos Surveys in Leeds",
   description:
     "Fast, reliable asbestos survey quotes across Leeds and surrounding areas.",
-  robots: {
-    index: false,
-    follow: false,
-  },
 };
 
 export default function RootLayout({
