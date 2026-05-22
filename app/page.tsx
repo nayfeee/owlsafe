@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Asbestos surveys in Leeds for homes, landlords & commercial properties | Fast quotes from qualified surveyors | Get a clear report before work starts →",
   alternates: {
-    canonical: "https://www.owlsafe.co.uk/",
+    canonical: "https://www.owlsafe.co.uk",
   },
   openGraph: {
     title: "Asbestos Surveys Leeds | OwlSafe",
