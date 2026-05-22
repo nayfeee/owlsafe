@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/asbestos-survey-wetherby",
     "/privacy-policy",
     "/terms-and-conditions",
+    "/do-i-need-an-asbestos-survey",
   ];
 
   return routes.map((route) => ({
