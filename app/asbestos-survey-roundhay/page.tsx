@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import PageClient from "./PageClient";
 
 export const metadata: Metadata = {
-  title: "Asbestos Survey Rothwell | OwlSafe",
+  title: "Asbestos Survey Roundhay | OwlSafe",
   description:
-    "Asbestos surveys in Rothwell, Oulton & Woodlesford | Homes, commercial properties & planned works →",
+    "Asbestos surveys in Roundhay, Oakwood & Moortown | Homes, commercial properties & planned works →",
   alternates: {
-    canonical: "https://www.owlsafe.co.uk/asbestos-survey-rothwell",
+    canonical: "https://www.owlsafe.co.uk/asbestos-survey-roundhay",
   },
   openGraph: {
-    title: "Asbestos Survey Rothwell | OwlSafe",
+    title: "Asbestos Survey Roundhay | OwlSafe",
     description:
-      "Arrange asbestos survey enquiries in Rothwell, Oulton, Woodlesford and nearby South East Leeds areas for homes, commercial premises and planned works.",
-    url: "https://www.owlsafe.co.uk/asbestos-survey-rothwell",
+      "Arrange asbestos survey enquiries in Roundhay, Oakwood, Moortown and nearby North East Leeds areas for homes, commercial premises and planned works.",
+    url: "https://www.owlsafe.co.uk/asbestos-survey-roundhay",
     siteName: "OwlSafe",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Asbestos Survey Rothwell",
+  name: "Asbestos Survey Roundhay",
   serviceType: "Asbestos survey",
   provider: {
     "@type": "Organization",
@@ -31,15 +31,15 @@ const jsonLd = {
   areaServed: [
     {
       "@type": "Place",
-      name: "Rothwell",
+      name: "Roundhay",
     },
     {
       "@type": "Place",
-      name: "Oulton",
+      name: "Oakwood",
     },
     {
       "@type": "Place",
-      name: "Woodlesford",
+      name: "Moortown",
     },
     {
       "@type": "City",
@@ -47,7 +47,7 @@ const jsonLd = {
     },
   ],
   description:
-    "OwlSafe helps arrange asbestos survey quotes in Rothwell, Oulton, Woodlesford and nearby South East Leeds areas for homes, commercial premises and planned works.",
+    "OwlSafe helps arrange asbestos survey quotes in Roundhay, Oakwood, Moortown and nearby North East Leeds areas for homes, commercial premises and planned works.",
 };
 
 export default function Page() {
