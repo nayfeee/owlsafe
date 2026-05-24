@@ -179,7 +179,7 @@ function LeedsText() {
             </p>
 
             <p>
-              We help arrange asbestos surveys across Leeds and surrounding areas, including Headingley, Horsforth, Chapel Allerton, Cross Gates, Pudsey, Morley, Garforth, Rothwell, Otley and Wetherby. Surveys can be arranged for homeowners, landlords, property developers, housing associations and commercial property managers.
+              At OwlSafe, we help arrange asbestos surveys across Leeds and surrounding areas, including Headingley, Horsforth, Chapel Allerton, Cross Gates, Pudsey, Morley, Garforth, Rothwell, Otley and Wetherby. Surveys can be arranged for homeowners, landlords, property developers, housing associations and commercial property managers.
             </p>
 
             <p>
@@ -199,7 +199,7 @@ function LeedsText() {
 function WhyChoose() {
   const cards = [
     ["Coverage Across Leeds", "Survey enquiries handled across Leeds and surrounding areas, including Headingley, Horsforth, Chapel Allerton, Cross Gates, Pudsey, Morley, Garforth, Rothwell, Otley and Wetherby."],
-    ["Fast Quotes & Quick Response", "Request a quote in minutes and receive fast responses from qualified asbestos surveyors covering your area."],
+    ["Fast Quotes & Quick Response", "Request a quote in minutes. OwlSafe helps connect property owners with qualified asbestos surveyors covering Leeds and surrounding areas."],
     ["Surveys for All Property Types", "Arrange asbestos surveys for houses, flats, rental properties, offices, retail units, warehouses and mixed-use buildings."],
     ["Support Before Purchase or Renovation", "Identify asbestos risks before buying a property, planning refurbishment work or arranging demolition – helping you avoid delays and unexpected costs."],
     ["Qualified & Experienced Surveyors", "Work with trained asbestos professionals experienced in surveying both residential and commercial properties."],
@@ -328,7 +328,7 @@ function HowItWorks() {
   return (
     <section className="overflow-hidden bg-[#f6f7f3] px-5 py-16 md:py-24">
       <div className="mx-auto max-w-[1120px]">
-        <Title intro="Different types of asbestos survey may be required depending on the property, the work being planned and the age of the building. We help arrange survey enquiries for residential and commercial properties across Leeds, including management surveys, refurbishment surveys, demolition surveys and reinspection surveys.">
+        <Title intro="OwlSafe helps make arranging an asbestos survey straightforward. From initial quote requests through to survey reports, the process is designed to help homeowners, landlords and commercial property owners understand what type of survey may be required and what happens next.">
           How Asbestos Surveys Work
         </Title>
 
@@ -845,7 +845,7 @@ function FAQ() {
             </h3>
 
             <p className="mt-4 max-w-[620px] text-[14px] leading-7 text-white/78">
-              Get a fast quote for asbestos surveys across Leeds and surrounding areas. Whether you are buying a property, planning refurbishment work, managing commercial premises or preparing for demolition, we can help connect you with qualified asbestos survey professionals.
+              Get a fast quote for asbestos surveys across Leeds and surrounding areas. OwlSafe helps connect homeowners, landlords and commercial property managers with experienced asbestos survey professionals.
             </p>
 
             <div className="mt-7">
@@ -885,7 +885,7 @@ font-weight:600!important;
 `}</style>      <Header />
       <Hero
         title="Fast, Reliable Asbestos Surveys in Leeds"
-        intro="Arrange asbestos surveys in Leeds for homes, landlords and commercial properties. Work with qualified surveyors and receive clear, compliance-focused reports for property purchases, renovation or demolition."
+        intro="OwlSafe helps homeowners, landlords and businesses arrange asbestos surveys in Leeds for residential, commercial and refurbishment projects. Work with qualified surveyors and receive clear, compliance-focused reports for property purchases, renovation or demolition."
         desktopImage={ASSETS.hero}
         mobileImage={ASSETS.mobileHero}
         imageAlt="Asbestos surveyor"
