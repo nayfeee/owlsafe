@@ -886,6 +886,7 @@ font-weight:600!important;
       <Hero
         title="Fast, Reliable Asbestos Surveys in Leeds"
         intro="OwlSafe helps homeowners, landlords and businesses arrange asbestos surveys in Leeds for residential, commercial and refurbishment projects. Work with qualified surveyors and receive clear, compliance-focused reports for property purchases, renovation or demolition."
+        mobileIntro="OwlSafe helps arrange asbestos surveys in Leeds with qualified surveyors and clear, compliance-focused reports."
         desktopImage={ASSETS.hero}
         mobileImage={ASSETS.mobileHero}
         imageAlt="Asbestos surveyor"
