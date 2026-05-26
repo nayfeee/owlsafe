@@ -13,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/asbestos-demolition-survey-leeds",
     "/asbestos-reinspection-survey-leeds",
     "/asbestos-survey-cost-leeds",
-    "/asbestos-survey-leeds-city-centre",
+    "/asbestos-survey-leeds-centre",
     "/asbestos-survey-headingley",
     "/asbestos-survey-horsforth",
     "/asbestos-survey-roundhay",
